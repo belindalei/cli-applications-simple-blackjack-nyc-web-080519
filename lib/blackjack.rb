@@ -1,4 +1,4 @@
-def welcome(message)
+def welcome
   puts "Welcome to the Blackjack Table" 
 end
 
@@ -6,8 +6,8 @@ def deal_card
   rand(11) + 1 
 end
 
-def display_card_total(card)
-  puts "your cards are #{card}"
+def display_card_total(card_total)
+  puts "your cards are #{card_total}"
 end
 
 def prompt_user
@@ -15,7 +15,7 @@ def prompt_user
 end
 
 def get_user_input
-  # code #get_user_input here
+  
 end
 
 def end_game
