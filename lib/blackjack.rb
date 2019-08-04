@@ -2,7 +2,7 @@ def welcome
   # code #welcome here
 end
 
-def deal_card
+def deal_card(message)
   # code #deal_card here
 end
 
