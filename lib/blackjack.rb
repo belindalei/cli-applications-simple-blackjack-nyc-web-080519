@@ -3,7 +3,7 @@ def welcome
 end
 
 def deal_card(message)
-  # code #deal_card here
+  puts "Welcome to the Blackjack Table" 
 end
 
 def display_card_total
