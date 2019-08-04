@@ -7,7 +7,7 @@ def deal_card(message)
 end
 
 def display_card_total(card)
-  card.random(1..11)
+  rand(11)
 end
 
 def prompt_user
