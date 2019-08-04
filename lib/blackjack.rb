@@ -11,7 +11,7 @@ def display_card_total(cards)
 end
 
 def prompt_user
-  puts "Here are the {cards}"
+  puts "Here are the #{cards}"
 end
 
 def get_user_input
